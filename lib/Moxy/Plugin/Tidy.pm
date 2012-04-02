@@ -7,9 +7,12 @@ use base 'Moxy::Plugin';
 
 use HTML::Tidy;
 
-sub control_panel :Hook {    my ($self, $context, $args) = @_;
+sub control_panel :Hook {
+
+    my ($self, $context, $args) = @_;
 
     $context->log( debug => "tidy" );
+
     my $tidy = HTML::Tidy->new;
     $tidy->parse($args->{response}->request->uri->path, $args->{response}->content);
 
