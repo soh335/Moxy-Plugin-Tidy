@@ -1,0 +1,8 @@
+<div id="moxy_show_http_headers">
+    <div>
+        <h2 id="moxy_request">Tidy</h2>
+        [%- FOR error IN errors %]
+        <pre>[% error | html %]</pre>
+        [%- END %]
+    </div>
+</div>

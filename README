@@ -1,0 +1,39 @@
+This is Perl module Moxy::Plugin::Tidy.
+
+INSTALLATION
+
+Type the following command:
+
+    $ curl -L http://cpanmin.us | perl - Moxy::Plugin::Tidy
+
+Or install cpanm and then run the following command to install
+Moxy::Plugin::Tidy:
+
+    $ cpanm Moxy::Plugin::Tidy
+
+If you get an archive of this distribution, unpack it and build it
+as per the usual:
+
+    $ tar xzf Moxy-Plugin-Tidy-$version.tar.gz
+    $ cd Moxy-Plugin-Tidy-$version
+    $ perl Makefile.PL
+    $ make && make test
+
+Then install it:
+
+    $ make install
+
+DOCUMENTATION
+
+Moxy::Plugin::Tidy documentation is available as in POD. So you can do:
+
+    $ perldoc Moxy::Plugin::Tidy
+
+to read the documentation online with your favorite pager.
+
+LICENSE AND COPYRIGHT
+
+Copyright (c) 2012, <<YOUR NAME HERE>>. All rights reserved.
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
